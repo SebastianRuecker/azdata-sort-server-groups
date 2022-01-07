@@ -4,7 +4,7 @@
 	"description": "Extension for Azure Data Studio to sort the server groups and connections based on the connection name",
 	"repository": "https://github.com/SebastianRuecker/azdata-sort-server-groups.git",
 	"publisher": "SebastianRuecker",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.39.0",
