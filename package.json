@@ -22,11 +22,11 @@
 		"commands": [
 			{
 				"command": "extension.sortingServerGroups",
-				"title": "Server-Gruppen sortieren"
+				"title": "%cmd.sort.title%"
 			},
 			{
 				"command": "extension.restoreServerGroupBackup",
-				"title": "Server-Gruppen Backup zurücksetzen"
+				"title": "%cmd.restore.title%"
 			}
 		]
 	},

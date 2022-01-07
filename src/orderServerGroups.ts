@@ -7,6 +7,7 @@ import {FileService} from './services/file.service';
 import {Commands} from './enums/command.enum';
 import {RestoreBackup} from './actions/RestoreBackup';
 import {SortConnections} from './actions/SortConnections';
+import localize from './localize';
 
 export class OrderServerGroups {
     public async ProcessRestore(): Promise<any> {
@@ -15,7 +16,15 @@ export class OrderServerGroups {
         for (const file of (files || [])) {
             await RestoreBackup.PerformRestore(file);
         }
-        vscode.commands.executeCommand(Commands.ReloadWindow);
+
+        vscode
+            .window
+            .showInformationMessage(localize('cmd.triggerReloadWindow'), localize('common.button.yes'))
+            .then(val => {
+                if (val === localize('common.button.yes')) {
+                    vscode.commands.executeCommand(Commands.ReloadWindow);
+                }
+            });
     }
 
     public async ProcessOrdering(): Promise<any> {
@@ -24,6 +33,14 @@ export class OrderServerGroups {
         for (const file of (files || [])) {
             await SortConnections.PerformOrdering(file);
         }
-        vscode.commands.executeCommand(Commands.ReloadWindow);
+
+        vscode
+            .window
+            .showInformationMessage(localize('cmd.triggerReloadWindow'), localize('common.button.yes'))
+            .then(val => {
+                if (val === localize('common.button.yes')) {
+                    vscode.commands.executeCommand(Commands.ReloadWindow);
+                }
+            });
     }
 }

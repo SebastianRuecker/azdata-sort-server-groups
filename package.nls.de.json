@@ -1,0 +1,6 @@
+{
+  "cmd.sort.title": "Server-Verbindungen sortieren",
+  "cmd.restore.title": "Sortierung der Server-Verbindungen zurücksetzen",
+  "common.button.yes": "Ja",
+  "cmd.triggerReloadWindow": "Damit die Änderungen wirksam werden, muss das Anwendungsfenster neu gestartet werden. Möchten Sie dies nun tun?"
+}

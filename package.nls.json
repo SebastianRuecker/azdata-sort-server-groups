@@ -1,0 +1,6 @@
+{
+  "cmd.sort.title": "Sort server connections",
+  "cmd.restore.title": "Restore sorting of server connections",
+  "common.button.yes": "Yes",
+  "cmd.triggerReloadWindow": "For the changes to take effect, the application window must be restarted. Do you want to do this now?"
+}

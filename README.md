@@ -4,7 +4,7 @@ Have you ever wanted to quickly and easily alphabetize your server connections a
 
 ## Features
 
-Just open the command palette <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and type `Sort Server Groups` or to restore to the previous state `Restore Server Groups`. 
+Just open the command palette <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and type `Sort server connections` or to restore to the previous state `Restore sorting of server connections`. 
 
 This extension automatically creates on the sorting process a backup file of your `settings.json` file.
 
