@@ -10,6 +10,6 @@ This extension automatically creates on the sorting process a backup file of you
 
 ## Installation
 
-1. Download the `.vsix` file from here: https://github.com/SebastianRuecker/azdata-sort-server-groups.git/releases/latest
+1. Download the `.vsix` file from here: https://github.com/SebastianRuecker/azdata-sort-server-groups/releases/latest
 2. In Azure Data Studio, from the File menu, select *Install Extension From VSIX Package*. Alternatively, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and select *Extensions: Install from VSIX...*
 3. Navigate to the file you downloaded and press *Install*.
